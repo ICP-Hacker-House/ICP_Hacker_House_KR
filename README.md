@@ -225,7 +225,7 @@ root of the repository which contains:
 ### Judging
 
 #### Presentations and judging
-While the DFINITY, Patika, and Bitfinity crew will be judging submissions,
+While the mentors will be judging submissions,
 each group will be presenting the project to hackers around their table in a
 small committee.
 
