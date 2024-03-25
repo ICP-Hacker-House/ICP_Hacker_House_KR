@@ -190,7 +190,7 @@ Here are some suggested themes. Projects are not limited to these verticals.
 
 
 ### Resources
-
+#### General
 - [ICP Hackathon Cheatsheet](https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c)
 - [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
 - [Rust CDK docs](https://docs.rs/ic-cdk/latest/ic_cdk/)
@@ -199,6 +199,11 @@ Here are some suggested themes. Projects are not limited to these verticals.
 - [Various Courses in multiple languages](https://dacade.org/communities/icp)
 - [BITFINITY EVM](https://docs.bitfinity.network/)
 - [Tutorial BITFINITY](https://www.youtube.com/playlist?list=PLUDcVqFK2t-C36KaTMzV3y1wu8Hf-qyAI)
+
+#### One-click development environments for macOS, Windows and Linux:
+- [Azle and React](https://github.com/fxgst/azle-react)
+- [Rust, React and EVM RPC canister](https://github.com/fxgst/evm-rpc-rust)
+  
 
 #### Cycles
 
