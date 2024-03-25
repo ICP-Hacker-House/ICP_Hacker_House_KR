@@ -198,6 +198,7 @@ Here are some suggested themes. Projects are not limited to these verticals.
 - [Azel Book](https://demergent-labs.github.io/azle/the_azle_book.html)
 - [Various Courses in multiple languages](https://dacade.org/communities/icp)
 - [BITFINITY EVM](https://docs.bitfinity.network/)
+- [Tutorial BITFINITY](https://www.youtube.com/playlist?list=PLUDcVqFK2t-C36KaTMzV3y1wu8Hf-qyAI)
 
 #### Cycles
 
