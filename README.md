@@ -42,7 +42,7 @@ project that uses an IC canister to verify the ownership of Ethereum NFTs:
 https://github.com/dfinity/ic-eth-starter
 
 **How to Get Started:**
-1.  Attend the Integrating with Ethereum session in the hacker house or watch this Youtube tutorial video to get an overview of the IC-ETH-Starter project.
+1.  Attend the Integrating with Ethereum session in the hacker house or watch this [Youtube tutorial video](https://www.youtube.com/watch?v=gEuI43g1m94) to get an overview of the IC-ETH-Starter project.
 2.  Clone/Fork the IC-ETH-Starter template.
 
 ##### Add verification of ERC-20 tokens. (Beginner)
