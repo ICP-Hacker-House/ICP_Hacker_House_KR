@@ -191,6 +191,7 @@ Here are some suggested themes. Projects are not limited to these verticals.
 
 ## Resources
 ### General
+- [101 Tutorial](https://dacade.org/ko/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)
 - [ICP Hackathon Cheatsheet](https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c)
 - [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
 - [ICP Zero to Dapp Series](https://youtube.com/playlist?list=PLuhDt1vhGcrcRcHvSKmxIgJAh1b3rcR7N&si=Dy3Zm1t5oBJY916n)
@@ -202,7 +203,8 @@ Here are some suggested themes. Projects are not limited to these verticals.
 - [Tutorial BITFINITY](https://www.youtube.com/playlist?list=PLUDcVqFK2t-C36KaTMzV3y1wu8Hf-qyAI)
 
 ### One-click development environments for macOS, Windows and Linux:
-- [Azle and React](https://github.com/fxgst/azle-react)
+- [101 Tutorial with Azle](https://github.com/dacadeorg/icp-message-board-contract)
+- [Azle and React Frontend & Backend Starter](https://github.com/fxgst/azle-react)
 - [Rust, React and EVM RPC canister](https://github.com/fxgst/evm-rpc-rust)
   
 
