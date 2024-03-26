@@ -4,7 +4,7 @@
 - [Hack-Challenges](#hack-challenges)
   * [Tracks](#tracks)
     + [xChain dapps  - Total Prize pool of USD 5k](#xchain-dapps----total-prize-pool-of-usd-5k)
-    + [Fully on-chain dapps - Total Prize pool of USD 2k](#fully-on-chain-dapps---total-prize-pool-of-usd-2k)
+    + [Fully on-chain dapps - Total Prize pool of USD 2k](#fully-on-chain-dapps---total-prize-pool-of-usd-5k)
   * [Resources](#resources)
   * [Submission](#submission)
   * [Judging Criteria](#judging-criteria)
@@ -151,7 +151,7 @@ The cli utility wrapping around dfx should upload binary blob with a hash -
 anyone should be able buy a hash for a given amount - would get copied to their own storage canister - which they would be allowed to download.
 
 
-#### Fully on-chain dapps - Total Prize pool of USD 2k
+#### Fully on-chain dapps - Total Prize pool of USD 5k
 
 Utilize the Internet Computer to build a fully on-chain dapp. Consider using a
 starter project or a sample dapp to kickstart your development. Here are some
