@@ -4,7 +4,7 @@
 - [Hack-Challenges](#hack-challenges)
   * [Tracks](#tracks)
     + [xChain dapps  - Total Prize pool of USD 5k](#xchain-dapps----total-prize-pool-of-usd-5k)
-    + [Fully on-chain dapps - Total Prize pool of USD 2k](#fully-on-chain-dapps---total-prize-pool-of-usd-5k)
+    + [Fully on-chain dapps - Total Prize pool of USD 5k](#fully-on-chain-dapps---total-prize-pool-of-usd-5k)
   * [Resources](#resources)
   * [Submission](#submission)
   * [Judging Criteria](#judging-criteria)
