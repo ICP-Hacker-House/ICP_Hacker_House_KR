@@ -189,10 +189,11 @@ Here are some suggested themes. Projects are not limited to these verticals.
 
 
 
-### Resources
-#### General
+## Resources
+### General
 - [ICP Hackathon Cheatsheet](https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c)
 - [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
+- [ICP Zero to Dapp Series](https://youtube.com/playlist?list=PLuhDt1vhGcrcRcHvSKmxIgJAh1b3rcR7N&si=Dy3Zm1t5oBJY916n)
 - [Rust CDK docs](https://docs.rs/ic-cdk/latest/ic_cdk/)
 - [AI DevRel](https://icp-ai-chat-frontend.vercel.app/)
 - [Azel Book](https://demergent-labs.github.io/azle/the_azle_book.html)
@@ -200,16 +201,16 @@ Here are some suggested themes. Projects are not limited to these verticals.
 - [BITFINITY EVM](https://docs.bitfinity.network/)
 - [Tutorial BITFINITY](https://www.youtube.com/playlist?list=PLUDcVqFK2t-C36KaTMzV3y1wu8Hf-qyAI)
 
-#### One-click development environments for macOS, Windows and Linux:
+### One-click development environments for macOS, Windows and Linux:
 - [Azle and React](https://github.com/fxgst/azle-react)
 - [Rust, React and EVM RPC canister](https://github.com/fxgst/evm-rpc-rust)
   
 
-#### Cycles
+### Cycles
 
 Ask your hacker house mentor
 
-### Submission
+## Submission
 To submit a project for the hackathon - raise a pull request and  every commit
 before the deadline will be considered.
 
@@ -228,16 +229,16 @@ root of the repository which contains:
     -   what were the challenges you ran into
     -   what are you proud of
 
-### Judging
+## Judging
 
-#### Presentations and judging
+### Presentations and judging
 While the mentors will be judging submissions,
 each group will be presenting the project to hackers around their table in a
 small committee.
 
 The winner(s) of each track will then present their project on stage.
 
-#### Judging Criteria
+### Judging Criteria
 
 -   **X Factor and Potential**
     -   What is the wow factor of the idea? Does it have potential?
