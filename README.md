@@ -5,7 +5,6 @@
   * [Tracks](#tracks)
     + [xChain dapps  - Total Prize pool of USD 5k](#xchain-dapps----total-prize-pool-of-usd-5k)
     + [Fully on-chain dapps - Total Prize pool of USD 2k](#fully-on-chain-dapps---total-prize-pool-of-usd-2k)
-    + [Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k](#build-solidity-smart-contracts-on-icp-using-the-bitfinity-evm---total-prize-pool-of-usd-3k)
   * [Resources](#resources)
   * [Submission](#submission)
   * [Judging Criteria](#judging-criteria)
@@ -166,27 +165,9 @@ possible directions you could take
 
 ##### Prizes
 
-1. USD 1k in ICP grants
-2. USD 0.5k in ICP grants
-
-
-#### Build solidity smart contracts on ICP using the Bitfinity EVM - Total Prize pool of USD 3k
-
-[Bitfinity](Bitfinity is an Ethereum Virtual Machine (EVM) implemented as a smart contract on Internet Computer Protocol) is an Ethereum Virtual Machine (EVM) implemented as a smart contract on Internet Computer Protocol
-It helps scale the Ethereum ecosystem for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable, and future-safe platform, with low transaction costs for their users.
-
-Here are some suggested themes. Projects are not limited to these verticals.
-
-- DeFi (e.g. AMM, Aggregator, Lending & Borrowing, etc.)
-- NFT & Gaming (e.g. NFT Platform, POAP dApp, Marketplace, Web3 Game etc.)
-- Infrastructure (e.g. Remix, Bridge, Text Messaging, Internet Identity etc.)
-
-
-##### Prizes
-
-1. USD 2k in ICP
-2. USD 1k in ICP
-
+1. USD 3k in ICP grants
+2. USD 1.5k in ICP grants
+3. USD 0.5k in ICP grants
 
 
 ## Resources
