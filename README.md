@@ -39,6 +39,7 @@ abtwt-7yaaa-aaaap-qcgca-cai
 - the image size is huge
 - deployment issues
 - ai chatbot and documentation not straightforward to follow in order to make a deployment
+- cors
 
 ## What are you proud of
 
