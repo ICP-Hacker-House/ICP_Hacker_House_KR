@@ -1,5 +1,7 @@
 # Dugup
 
+Fan to Earn (KPOP Real Use Case)
+
 ## Demo
 
 https://github.com/aeither/ICP_HUBS_Hacker_House/assets/36173828/97fff9a1-549f-4acb-9835-19e099555b12
