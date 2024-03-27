@@ -1,0 +1,16 @@
+type Comment = 
+ record {
+   comment: text;
+   commentor: text;
+ };
+service : {
+  create_index: (text) -> (bool);
+  create_profile: (text) -> (bool);
+  query_comments: (text) -> (vec Comment);
+  query_index: (text) -> (vec text);
+  query_principleToProfile: (text) -> (text);
+  query_profile: (text) -> (vec text);
+  rate: (text, text, bool, text) -> (bool);
+  update_index: (text, text, nat) -> (bool);
+  update_profile: (text, text, nat) -> (bool);
+}

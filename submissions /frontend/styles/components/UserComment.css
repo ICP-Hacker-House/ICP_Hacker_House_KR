@@ -1,0 +1,11 @@
+.userCommnetBox{ 
+    margin-left: 12.56rem;
+    margin-right: 12.56rem;
+    margin-top: 1.31rem;
+    display: flex;
+    align-items: center;
+}
+
+.commentText{ 
+    margin-left: 1rem;
+}

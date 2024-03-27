@@ -1,0 +1,14 @@
+{
+  "assets": {
+    "ic": "oz5wg-liaaa-aaaap-qb43a-cai"
+  },
+  "authentication": {
+    "ic": "o64qs-gqaaa-aaaap-qb43q-cai"
+  },
+  "httpOutcalls": {
+    "ic": "ptsu4-jyaaa-aaaap-qb44a-cai"
+  },
+  "purify": {
+    "ic": "putsi-eaaaa-aaaap-qb44q-cai"
+  }
+}

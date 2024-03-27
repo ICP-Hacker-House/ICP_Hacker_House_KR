@@ -1,0 +1,9 @@
+service : {
+  query_ethAddress: (text) -> (text);
+  query_secretHash: (text) -> (text);
+  query_secretProvided: (text) -> (bool);
+  status_initialize: (text) -> (bool);
+  update_ethAddress: (text, text) -> (bool);
+  update_secretHash: (text, text) -> (bool);
+  update_secretProvided: (text, bool) -> (bool);
+}
