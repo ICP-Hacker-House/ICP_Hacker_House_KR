@@ -1,7 +1,7 @@
 Swrdfish io
 project description
 Liquid Staking / Restaking protocol
-track - 2
+track - 1
 team participants
 jcs25822@gmail.com
 canister ID(s) of mainnet deployment
