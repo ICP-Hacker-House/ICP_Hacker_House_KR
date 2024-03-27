@@ -1,0 +1,30 @@
+.ListWalletAddressBox{ 
+    margin-top: 2.5rem;
+    display: flex;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+    align-items: center;
+}
+
+.friendTechBox{ 
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+}
+
+.detail-btn{ 
+    width: 7.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    border: 1px solid #06F;
+    background: #FFF;
+    color: #06F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem; /* 114.286% */
+    margin-left: auto;
+}

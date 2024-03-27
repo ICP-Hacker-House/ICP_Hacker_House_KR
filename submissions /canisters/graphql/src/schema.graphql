@@ -1,0 +1,15 @@
+type UserSecret {
+  id: ID!
+  user: User! @relation(name: "User:userSecret::UserSecret:user")
+  password: String!
+}
+
+type Query {
+  user(id: ID!): User
+  userSecret(id: ID!): UserSecret
+}
+
+type Mutation {
+  createUser(email: String!, password: String!): User
+  createSecret(user: ID!, password: String!): UserSecret
+}

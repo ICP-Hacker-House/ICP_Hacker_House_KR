@@ -1,0 +1,10 @@
+.btn_solid {
+  width: 300px;
+  height: 60px;
+  background-color: var(--color-primary);
+  border-radius: 30px;
+  color: var(--color-white);
+  font-size: 1.12rem;
+  font-weight: 500;
+  cursor: pointer;
+}
