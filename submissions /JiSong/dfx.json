@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "evm_rpc": {
+      "type": "pull",
+      "id": "7hfb6-caaaa-aaaar-qadga-cai"
+    },
+    "backend": {
+      "dependencies": ["evm_rpc"],
+      "candid": "backend/backend.did",
+      "package": "backend",
+      "type": "rust"
+    },
+    "frontend": {
+      "dependencies": ["backend"],
+      "type": "assets",
+      "source": ["dist/"]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "npm run --silent sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
