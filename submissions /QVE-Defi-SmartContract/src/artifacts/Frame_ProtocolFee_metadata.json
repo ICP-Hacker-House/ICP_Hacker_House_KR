@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "RewardStakers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/ProtocolFee.sol": "Frame_ProtocolFee"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/ProtocolFee.sol": {
+			"keccak256": "0x93407f0a6449f139c681990047d3be67f750d873ba872377ef1c34ac19c866d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5652cc2b81a126f09e967b2c52b5c74ec1a297b6b76eeb67ba6abbefeaa498c",
+				"dweb:/ipfs/QmVqbZRnMCtng44ZTPkbJwtxtDkP8UTWsyNkfaye2P6qnG"
+			]
+		}
+	},
+	"version": 1
+}
