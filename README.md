@@ -1,237 +1,85 @@
-# 2024 ICP Korea Hacker House
+# Dugup
 
-## Content
-- [Hack-Challenges](#hack-challenges)
-  * [Tracks](#tracks)
-    + [xChain dapps  - Total Prize pool of USD 5k](#xchain-dapps----total-prize-pool-of-usd-5k)
-    + [Fully on-chain dapps - Total Prize pool of USD 5k](#fully-on-chain-dapps---total-prize-pool-of-usd-5k)
-  * [Resources](#resources)
-  * [Submission](#submission)
-  * [Judging Criteria](#judging-criteria)
+Fan to Earn (KPOP Real Use Case)
 
+## Demo
 
+https://github.com/aeither/ICP_HUBS_Hacker_House/assets/36173828/97fff9a1-549f-4acb-9835-19e099555b12
 
-## Hack-Challenges
+##
 
-### Tracks
+Slides:
 
-Here are the four different tracks we have open and some example ideas you can
-inspire yourself from/copy
+https://docs.google.com/presentation/d/1IWWew-CG7Tyd11E1ODv4_PuhhmtanVdX/edit?usp=sharing&ouid=103129906474846662491&rtpof=true&sd=true
 
-#### xChain dapps  - Total Prize pool of USD 5k
+## Description
 
+DUGUP is not a Fan to Earn but a Fan to Grow Artist social-fi app. The KPOP community has shown the power to elevate BTS to the top of the Billboard charts. This growth is driven not by agency plans but by fan engagement, creating artists together. Dugup is designed so that fans' engagement contributes to the growth of artists.
 
-The Internet Computer is a unique platform to build cross-chain dapps. In the
-workshops, you’ll get introduced to threshold ECDSA, the Bitcoin integration,
-ckBTC, HTTPS outcalls, and the IC-ETH-Starter template.
+How to Collect DUG COIN:
+Scan the Offline Merchandise: Use your device to scan the QR code or barcode on the merchandise associated with DUG COIN promotions.
+Insert the Code: After scanning, a unique code will appear. Enter this code into the designated area on the DUG COIN platform or app.
+Add to My Moments: Share this event by posting it to your 'Moments', a feature on the platform that allows you to share updates or achievements.
+Badge (POAP) Distribution: Receive a Proof of Attendance Protocol (POAP) badge as acknowledgment of your participation and proof of ownership.
+My Page: View and manage your collected DUG COINS and badges on your personal page within the platform.
+How to Spend DUG COIN:
+Community Voting: Use DUG COINS to vote on community decisions. Each DUG COIN might represent one vote in community polls or decisions.
+Exclusive Access: Spend DUG COINS to gain access to special events, content, or merchandise only available to coin holders.
+Marketplace Purchases: Use DUG COINS to buy, sell, or trade goods and services on the platform’s marketplace.
+Staking or Investment: Allocate DUG COINS towards staking or investment opportunities within the platform to potentially earn more.
+Charity or Crowdfunding: Contribute DUG COINS towards charity drives or crowdfunding campaigns hosted on the platform.
 
-In this track, you are challenged to use one or more of these powerful building
-blocks to create a novel application. In the following, we have listed some
-projects you could tackle.
+## Track
 
-##### Prizes
+- 2. Fully on-chain dapps
 
-1. USD 3k in ICP grants
-2. USD 2k in ICP grants
+## Track
 
-You can pick ideas from https://github.com/dfinity/grant-rfps/blob/main/requests-for-startups.md
+## Team participants
 
-These bounties focus on adding to the IC-ETH-Starter template which is a starter
-project that uses an IC canister to verify the ownership of Ethereum NFTs:
-https://github.com/dfinity/ic-eth-starter
+Giovanni.
 
-**How to Get Started:**
-1.  Attend the Integrating with Ethereum session in the hacker house or watch this [Youtube tutorial video](https://www.youtube.com/watch?v=gEuI43g1m94) to get an overview of the IC-ETH-Starter project.
-2.  Clone/Fork the IC-ETH-Starter template.
+- http://github.com/aeither
+- Discord: aithez
 
-##### Add verification of ERC-20 tokens. (Beginner)
-The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs. Add support for ERC-20 tokens.
+Sujin.
 
-**Requirements:**
--   A user would input an Etherscan link to an ERC20 smart contract address in the OpenSea / Etherscan link section on the Verify page.
--   Once a user clicks on Verify Token, the app will request the user to sign and verify if the user does own a positive balance of the ERC20 token.
--   The ERC20 token verification with the user wallet address will be listed on the Home page.
+- https://github.com/sujinkim89
+- Discord: stay_keen
 
-**Hints:**
+## Canister ID(s) of mainnet deployment
 
--   Enable ERC-20 as a token type
-    -   Add erc20 as a token type on Line 11 in `src/services/HistoryService.ts`
--   Add a function to verify ownership of an ERC-20 token
-    -   Add a function similar to `erc721_owner_of` and `erc1155_balance_of` to check
-    for the user balance of the ERC20 token.
+abtwt-7yaaa-aaaap-qcgca-cai
 
--   Enable the user to input a link from Ethereum that references an ERC20 smart contract
-    -   Adjust the `verifyNFT` function in `src/components/WalletArea.tsx` to check the user balance of the ERC20 token using the function created in Add a function to verify ownership of an ERC-20 token.
+- https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=abtwt-7yaaa-aaaap-qcgca-cai
 
-[**Full Tutorial Link**](/erc20icp.md)
+# Feedback
 
-##### Add other ownership details. (Beginner)
+## What have you learned
 
-The IC-ETH-Starter shows the NFT image, name, and link to OpenSea alongside the wallet address of the user who verified ownership of the NFT. Provide owners with other information on their verified NFTs such as:
+- ICP glossary: Canisters, Cycles, Candid, Internet idendity, ledger cannister
+- Different languages to build program. azle for typescript, bitfinity evm for solidity...
+- How to build with azle
+- dfx CLI
 
--   date and time of purchase
--   the purchase amount in ETH
--   the name of the NFT collection
+## What were the challenges you ran into
 
-**Requirements:**
--   Upon token verification, the verification listed on the Home page will list additional details than currently provided.
+- the image size is huge
+- deployment issues
+- ai chatbot and documentation not straightforward to follow in order to make a deployment
+- cors
 
-**Hints:**
--   Add a function that queries additional data on NFTs
-    -   Add a function that queries additional data on NFTs in `src/components/WalletArea.tsx`
-    -   Call the function in the VerifyNFT function when verifying the ownership of the NFT
+## What are you proud of
 
--   Save the data
-    -   Update the NFT type and `addNFTs` function to accept additional data that you would like to save about the ownership of the NFT
-    -   Enable verification of NFTs on other chains. (Beginner)
+- fullstack app. frontend + backend
+- deployment on mainnet
 
-#### Enable verification of NFTs on other chains. (Intermediate)
+## Screenshots
 
-The IC-ETH-Starter can currently verify ownership of ERC-721 and ERC-1155 NFTs on Ethereum and its testnets (Goerli and Sepolia). Adding support for other EVM-compatible chains, such as:
+![1](https://github.com/aeither/ICP_HUBS_Hacker_House/assets/36173828/102f327b-98db-4674-bbca-6b390b9972fe)
 
--   Arbitrum
--   Avalanche
--   Optimism
--   Polygon
--   Binance Smart Chain
+![2](https://github.com/aeither/ICP_HUBS_Hacker_House/assets/36173828/9fb0dc45-90dc-406f-a90e-3e8fc6c7779f)
 
-**Requirements:**
--   A user can input a block explorer link to an NFT on another chain. You can optionally add a dropdown that allows the user to select the chain of the NFT that they want to verify ownership of.
--   Click "Verify Token" and sign your message.
--   The app will verify that you own the NFT.
+![3](https://github.com/aeither/ICP_HUBS_Hacker_House/assets/36173828/beb4a97a-7b1b-4491-97a5-0721b127318d)
 
-**Hints:**
-
--   Add a corresponding chain RPC
-    -   Add the corresponding chain RPC under the get_rpc_endpoint function in `canisters/ic_eth/src/eth_rpc.rs`
-
--   Adjust functions to accept the new chain
-    -   Adjust `parseOpenSeaNft` to accept a newly supported chain. Add another parse function to handle a URL link from a supported block explorer
-
-##### Create attestations during verification (Advanced)
-
-Verified owners should be able to add notes to the verification process. Upon
-verifying their NFT ownership, owners can add different notes under their
-verified NFTs. Bonus points if you can keep the notes only visible to certain
-Internet Computer principals using vetKeys.
-
-**Requirements:**
--   A user inputs the block explorer link to the NFT you want to verify and add a message.
--   Click "Verify Token" and sign your message.
--   The app will verify that you own the NFT.
--   If the verification is successful, your NFT verification details and message will be displayed on the home page.
-
-**Resources:**
-
-[vetKeys](https://internetcomputer.org/docs/current/developer-docs/integrations/vetkeys/technology-overview)
-
-##### Create a Chat Between Verified Owners of the NFTs in the same Collection (Advanced)
-Create a chat between verified owners of any NFT collection. For example, if an
-NFT owner verifies their ownership of a Bored Ape, the app will open a chat
-between any other Bored Ape owners who have verified their ownership. You can
-gamify the experience by giving the first x owners to verify their NFTs in a
-collection a special reward, such as an NFT or token.
-
-**Requirements:**
--   A chat that is only visible to wallet addresses that verified NFTs/tokens in the same collection.
-
-#### Ideas to build with the Bitcoin integration and ckBTC
-
-##### Augment PoS example to fully fledged product website - virtual store with ckBTC (Intermediate)
-Using the [POS](https://internetcomputer.org/docs/current/samples/pos) example, from the internet computer documentation. You can extend it
-to have an inventory of items and
-
-##### Add NFC payments to the PoS example dapp (Advanced)
-Extend the last POS example to request payments via NFC instead of QR code!
-
-##### File Sharing Payment (Advanced)
-Upload files locally and exchange them with various principals through ckBTC.
-
-The cli utility wrapping around dfx should upload binary blob with a hash -
-anyone should be able buy a hash for a given amount - would get copied to their own storage canister - which they would be allowed to download.
-
-
-#### Fully on-chain dapps - Total Prize pool of USD 5k
-
-Utilize the Internet Computer to build a fully on-chain dapp. Consider using a
-starter project or a sample dapp to kickstart your development. Here are some
-possible directions you could take
-
-
--   **SocialFi applications** - Social interactions on chains means that users own their data. On ICP you can host websites and interact with smart canisters directly from the browser. On top of this, ICP has the smoothest user onboarding experience. No wallet necessary.
--   **DAO tooling** - ICP has the capability of hosting the entire governance process for DAOs on-chain. Show us what you can build to make DAOs thrive.
--   **Privacy focused applications** - Blockchains in general are not the best for privacy of data. vetKeys on ICP help you build dapps in which users can preserve their privacy.
--   **RWA DeFi protocols** - With https outcalls, ICP canisters can bring in real world data streams on chain. We are looking for projects that tokenize new assets and bring them on chain.
-
-##### Prizes
-
-1. USD 3k in ICP grants
-2. USD 1.5k in ICP grants
-3. USD 0.5k in ICP grants
-
-
-## Resources
-### General
-- [101 Tutorial](https://dacade.org/ko/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)
-- [ICP Hackathon Cheatsheet](https://dfinityorg.notion.site/ICP-Hackathon-Cheat-Sheet-b2921239266149de81021412f572351c)
-- [Awesome Internet Computer Dev Resources](https://github.com/dfinity/awesome-internet-computer)
-- [ICP Zero to Dapp Series](https://youtube.com/playlist?list=PLuhDt1vhGcrcRcHvSKmxIgJAh1b3rcR7N&si=Dy3Zm1t5oBJY916n)
-- [Rust CDK docs](https://docs.rs/ic-cdk/latest/ic_cdk/)
-- [AI DevRel](https://icp-ai-chat-frontend.vercel.app/)
-- [Azel Book](https://demergent-labs.github.io/azle/the_azle_book.html)
-- [Various Courses in multiple languages](https://dacade.org/communities/icp)
-- [BITFINITY EVM](https://docs.bitfinity.network/)
-- [Tutorial BITFINITY](https://www.youtube.com/playlist?list=PLUDcVqFK2t-C36KaTMzV3y1wu8Hf-qyAI)
-
-### One-click development environments for macOS, Windows and Linux:
-- [101 Tutorial with Azle](https://github.com/dacadeorg/icp-message-board-contract)
-- [Azle and React Frontend & Backend Starter](https://github.com/fxgst/azle-react)
-- [Rust, React and EVM RPC canister](https://github.com/fxgst/evm-rpc-rust)
-  
-
-### Cycles
-
-Ask your hacker house mentor
-
-## Submission
-To submit a project for the hackathon - raise a pull request and  every commit
-before the deadline will be considered.
-
-Your submission needs to be in `submissions/`
-
-In order for your PR to be considered you need to have a `README.md` file at the
-root of the repository which contains:
--   project description
--   track
--   team participants
-    -   please use GitHub username for everyone
-    -   Discord IDs
--   canister ID(s) of mainnet deployment
--   feedback part
-    -   what have you learned
-    -   what were the challenges you ran into
-    -   what are you proud of
-
-## Judging
-
-### Presentations and judging
-While the mentors will be judging submissions,
-each group will be presenting the project to hackers around their table in a
-small committee.
-
-The winner(s) of each track will then present their project on stage.
-
-### Judging Criteria
-
--   **X Factor and Potential**
-    -   What is the wow factor of the idea? Does it have potential?
--   **Technical Competence**
-    -   What is the quality of the technical designs and source code?
--   **Impact**
-    -   Does this project solve a real-world problem? Can people use it?
--   **Progression**
-    -   Can a library be used? Is a service actually usable? How far did you go?
--   **IC Superpowers**
-    -   How well did you utilize the superpowers of the Internet Computer?
-
-[DFINITY Hackathon Terms and Conditions](https://www.notion.so/dfinityorg/DFINITY-HACKATHON-TERMS-AND-CONDITIONS-Fully-On-Chain-with-ICP-1faf692d49a64c89afb5589a7219eee2?pvs=4)
+![4](https://github.com/aeither/ICP_HUBS_Hacker_House/assets/36173828/7fb62f45-f7c5-4406-ab1c-e5a16e4caf7f)
