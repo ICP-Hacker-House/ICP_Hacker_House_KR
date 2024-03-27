@@ -1,10 +1,6 @@
 # Lens Temperature
 ## project description
 The Lens Temperature project is a project that anyone with a lens profile can join and leave reviews and chat. With a Lens profile, Lens users may want to connect with Lens users who follow them or who follow the same influencers as them. This isn't currently supported, which is why we created Lens Temperature. Lens Temperature allows you to measure the temperature of an influencer's room based on their chats and reviews. Think of it as the carrot temperature of social media. ICP's httpOutcall can be used to validate Lens NFTs and make it transparent who is following them. This is a project that can be extended to other socials like FriendTech or Farcaster.
-
-Translated with DeepL.com (free version)
-
-Translated with DeepL.com (free version)
 ## track
 Track 1
 ### team participants
